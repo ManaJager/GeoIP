@@ -11,7 +11,7 @@ public class DBInit {
 
     public DatabaseReader init() throws IOException {
         File database = new File(
-                Objects.requireNonNull(exampleGeoIP.class.getClassLoader().getResource("GeoLite2-City.mmdb")).getFile()
+                Objects.requireNonNull(ExampleGeoIP.class.getClassLoader().getResource("GeoLite2-City.mmdb")).getFile()
         );
 
         // This creates the DatabaseReader object. To improve performance, reuse

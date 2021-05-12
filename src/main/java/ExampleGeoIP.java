@@ -5,7 +5,7 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Map;
 
-public class exampleGeoIP {
+public class ExampleGeoIP {
     private static final String ip = "5.35.71.149";
 
     public static void main(String[] args) throws IOException, GeoIp2Exception {
